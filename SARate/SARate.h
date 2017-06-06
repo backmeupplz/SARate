@@ -26,6 +26,7 @@
 //
 
 #import "iRate.h"
+#import "SARateDelegate.h"
 
 @interface SARate : iRate
 
@@ -50,5 +51,6 @@
 @property (nonatomic, strong) NSString *emailErrorAlertText;
 @property (nonatomic, strong) NSString *okText;
 @property (nonatomic, assign) int minAppStoreRaiting;
+@property (weak, nonatomic) id<SARateDelegate> sar_delegate;
 
 @end

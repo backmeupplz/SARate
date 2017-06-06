@@ -186,6 +186,8 @@
 
 
 -(void)setRaiting{
+    [self.sar_delegate SARateWillRate:_mark];
+    
     if (_mark == 0){
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:_setRaitingAlertTitle message:_setRaitingAlertMessage delegate:nil cancelButtonTitle:_okText otherButtonTitles:nil];
         [alertView show];
