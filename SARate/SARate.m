@@ -63,7 +63,7 @@
     _mySARateViewController.emailErrorAlertText = self.emailErrorAlertText;
     _mySARateViewController.okText = self.okText;
     _mySARateViewController.minAppStoreRaiting = self.minAppStoreRaiting;
-    _mySARateViewController.delegate = self.sar_delegate;
+    _mySARateViewController.sar_delegate = self.sar_delegate;
     
     [_mySARateViewController.view setFrame:[[UIScreen mainScreen] bounds]];
     
