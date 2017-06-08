@@ -170,20 +170,20 @@
 }
 
 
--(NSString *)disadvantagesAlertTitle{
-    if (_disadvantagesAlertTitle == nil){
-        _disadvantagesAlertTitle = NSLocalizedString(@"Disadvantages", @"");
-    }
-    return _disadvantagesAlertTitle;
-}
+// -(NSString *)disadvantagesAlertTitle{
+//     if (_disadvantagesAlertTitle == nil){
+//         _disadvantagesAlertTitle = NSLocalizedString(@"Disadvantages", @"");
+//     }
+//     return _disadvantagesAlertTitle;
+// }
 
 
--(NSString *)disadvantagesAlertMessage{
-    if (_disadvantagesAlertMessage == nil){
-        _disadvantagesAlertMessage = NSLocalizedString(@"Please specify the deficiencies in the application. We will try to fix it!", @"");
-    }
-    return _disadvantagesAlertMessage;
-}
+// -(NSString *)disadvantagesAlertMessage{
+//     if (_disadvantagesAlertMessage == nil){
+//         _disadvantagesAlertMessage = NSLocalizedString(@"Please specify the deficiencies in the application. We will try to fix it!", @"");
+//     }
+//     return _disadvantagesAlertMessage;
+// }
 
 
 -(NSString *)email{
