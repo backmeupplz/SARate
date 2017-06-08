@@ -28,5 +28,6 @@
 @protocol SARateDelegate <NSObject>
 
 - (void)SARateWillRate:(int)rating;
+- (void)SARateNeedsToOpenFeedback;
 
 @end
